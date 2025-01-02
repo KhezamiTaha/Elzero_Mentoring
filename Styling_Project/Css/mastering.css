@@ -1,0 +1,410 @@
+/* this is my css stylsheet */
+
+
+/* p {
+    color: blue;
+    font-size: 30px;
+}
+
+
+.hello{
+    color: aqua;
+} */
+
+
+/* div { */
+/* 
+    background-color: rgb(0, 255, 255, 50%);
+    background-color: #101010;
+    background-image: url("../images/OIsssP.jpg");
+    background-repeat: no-repeat; */ 
+    /* background-attachment: fixed;
+    background-position: 30% 30% ; */
+    /* background-size: 100% 100%;
+
+    padding: 10px ;
+
+    width: 61.8%;
+    margin: auto;
+    border-width: 10px;
+    border-style: solid;
+    border-color: green yellow;
+    border-radius: 32px;
+
+}  
+
+
+/*
+
+  Block
+
+  - Take Full Width If No Width
+  - Add Line Break
+  - Respect Padding, Margin, Width, Height
+
+  Inline
+
+  - Do Not Repsepct Width, Height
+  - Respect Padding And Margin [ Just Right + Left ]
+  - Do Not Add Line Break
+  - Allow Elements Before And After It in The Same Line
+
+  Inline-Block
+
+  - Allow Elements Before And After It in The Same Line
+  - Respect Padding, Margin, Width, Height
+
+*/
+
+
+/* div {
+background-color: green;
+padding: 10px;
+margin: 10px 19.1%;
+width: 61.8%;
+
+
+} */
+
+/* .first{
+    /* visibility: hidden; 
+    width: fit-content;
+} */
+
+
+/* .second{
+    visibility: hidden;
+    // width: fit-content; // 
+} */
+
+
+
+
+/* span {
+    background-color: blue;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 19.1%;  
+    width: 200px;
+   
+    
+    }
+
+    .overflow{
+        height: 100px;
+        width: 200px;
+        overflow-x: hidden;
+    } */
+
+    /* .mobicom{
+        background-color: brown;
+        text-align: center;
+        color: cornsilk;
+        text-shadow: 1px 1px 1px black;
+        font-size: 35px;
+        direction: ltr;
+        /* text-decoration: underline; 
+        /* text-transform: lowercase; 
+        text-indent: 10px;
+        word-spacing: 0px;
+        white-space: nowrap;
+        word-break: break-word;
+        border: 12px solid greenyellow;
+        
+    } */
+
+
+    /* .mobicom p {
+        border: inherit;
+        font-size: 1.3em;
+        white-space: wrap ;
+
+    }
+
+    .mobile{
+        background-color: chocolate;
+        font-size: 35px;
+        text-align: center;
+        color: cornsilk;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: normal;
+
+
+    } */
+
+
+
+    
+    /* .parent {
+        background-color: brown;
+        padding: 10px;
+        position: sticky;
+        top: 15px;
+
+    }
+
+    .parent div {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: aliceblue;
+        width: 25%;
+        float: left;
+    }
+
+    body{
+        height: 2000px;
+    } */
+
+
+/* .one {
+    background-color: red;
+    color: wheat;
+}
+
+.two {
+    background-color: #989696;
+    width: 300px;
+    height: 300px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #810081;
+}
+
+.check:checked + label {
+    color: blue;
+}
+
+
+a:visited {
+    color: rgb(226, 52, 43);
+}
+
+
+:empty{
+    border: 3px solid black;
+}
+
+.input:focus {
+
+    outline: none;
+    border: 2px solid green;
+
+}
+ */
+
+
+
+ /*
+  Gradients
+  linear-gradient(Direction || Angle, Color Stop 1, Color Stop 2, ....)
+*/
+
+/* div {
+    width: 400px;
+    height: 200px;
+    background-color: #eee;
+    margin: 20px auto;
+    position: relative;
+    padding: 10px;
+  }
+  div:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    height: 10px;
+    background-image: linear-gradient(
+      to right,
+      #2980b9 20%,
+      #27ae60 20%,
+      #27ae60 40%,
+      #d35400 40%,
+      #d35400 60%,
+      #8e44ad 60%,
+      #8e44ad 80%,
+      #c0392b 80%
+    );
+  } */
+
+
+  /*
+  Grid
+  Parent
+  - display: grid | inline-grid
+  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - grid-template-rows: [Number Of Rows In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - gap: [Row Gap] [Column Gap]
+  - justify-content
+  - align-content
+*/
+
+/* * {
+    box-sizing: border-box;
+  }
+  .parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px 10px;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  .parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  } */
+
+
+
+  /*
+  Grid
+  Parent
+  - display: grid | inline-grid
+  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - grid-template-rows: [Number Of Rows In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - gap: [Row Gap] [Column Gap]
+  - justify-content
+  - align-content
+*/
+
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  ul li {
+    display: inline-block;
+  }
+  .page {
+    height: 100vh;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas:
+      "logo logo nav nav nav nav nav nav nav nav"
+      "cont cont cont cont cont cont cont . side side"
+      "foot foot foot foot foot foot foot foot foot foot";
+  }
+  h2 {
+    grid-area: logo;
+    background-color: red;
+    color: white;
+  }
+  nav {
+    grid-area: nav;
+    background-color: blue;
+    color: white;
+  }
+  section {
+    grid-area: cont;
+    background-color: yellow;
+    color: white;
+  }
+  aside {
+    grid-area: side;
+    background-color: green;
+    color: white;
+  }
+  footer {
+    grid-area: foot;
+    background-color: black;
+    color: white;
+  } */
+
+
+  /* div {
+    margin: 200px auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.788);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    transform: rotateX(50deg);
+    transform: rotateY(50deg);
+    transform: rotateZ(50deg);
+    transform: rotate3d(0, 1, 1, 65deg);
+    transform-origin: ;
+    transition: 0.7s;
+    transform-origin: right;
+    transform: rotateX(70deg);
+  }
+
+  div:hover {
+    transform: unset;
+  } */
+
+
+
+  /*
+  Loading Animation
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+  }
+  .load {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  .load div {
+    width: 20px;
+    height: 20px;
+    background-color: orchid;
+    border-radius: 50%;
+    margin: 0 5px;
+    animation-name: up-and-down;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .load .two {
+    animation-delay: 0.2s;
+  }
+  .load .three {
+    animation-delay: 0.5s;
+  }
+  @keyframes up-and-down {
+    to {
+      opacity: 0.2;
+      transform: translateY(-7px);
+    }
+  }
+
+
+
+
